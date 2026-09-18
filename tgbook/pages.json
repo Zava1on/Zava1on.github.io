@@ -1,0 +1,112 @@
+[
+  {
+    "title": "欢迎!",
+    "url": "/tgbook/",
+    "desc": "这里是南数课程指南.🥳🥰🤩"
+  },
+  {
+    "title": "关于",
+    "url": "/tgbook/about-us/about/",
+    "desc": "不以物喜, 不以己悲."
+  },
+  {
+    "title": "前言",
+    "url": "/tgbook/about-us/info/",
+    "desc": "此处按版本记录前言."
+  },
+  {
+    "title": "致谢",
+    "url": "/tgbook/about-us/thanks/",
+    "desc": "多少事, 从来急, 天地转, 光阴迫, 一万年太久，只争朝夕."
+  },
+  {
+    "title": "常微分方程",
+    "url": "/tgbook/files/chang-wei-fen-fang-cheng/",
+    "desc": "必修课, 3学分(开设在第三学期)"
+  },
+  {
+    "title": "程序设计与算法语言",
+    "url": "/tgbook/files/cheng-xu-she-ji-yu-suan-fa-yu-yan/",
+    "desc": "数学系专业准出课, 4学分(开设在第二学期, 不过会有相当有一部分人选不上, 只能第4学期再修)"
+  },
+  {
+    "title": "大物实验(一)",
+    "url": "/tgbook/files/da-wu-shi-yan-yi/",
+    "desc": "专业准出课, 3学分(常开设于第一学期, 22级因校区问题开设在第二学期)"
+  },
+  {
+    "title": "大学物理(上)",
+    "url": "/tgbook/files/da-xue-wu-li-shang/",
+    "desc": "专业准出课, 4学分(开设在第二学期)"
+  },
+  {
+    "title": "大学英语",
+    "url": "/tgbook/files/da-xue-ying-yu/",
+    "desc": "必修公共课, 2\\4=8学分(听说和读写各两个学期)"
+  },
+  {
+    "title": "复变函数",
+    "url": "/tgbook/files/fu-bian-han-shu/",
+    "desc": "平台课, 准出课, 3学分"
+  },
+  {
+    "title": "概率论基础",
+    "url": "/tgbook/files/gaillun-ji-chu/",
+    "desc": "平台课, 4学分"
+  },
+  {
+    "title": "高等代数",
+    "url": "/tgbook/files/gao-deng-dai-shu/",
+    "desc": "数学系准入课之一, 4\\2=8学分(开设在第一到第二学期, 准入数学系需修AB)"
+  },
+  {
+    "title": "解析几何",
+    "url": "/tgbook/files/jie-xi-ji-he/",
+    "desc": "数学系准入课之一, 2学分(开设在第一学期)"
+  },
+  {
+    "title": "近世代数",
+    "url": "/tgbook/files/jin-shi-dai-shu/",
+    "desc": "计算, 统计选修课, 纯数核心课, 3学分(开设在第三学期)"
+  },
+  {
+    "title": "离散数学",
+    "url": "/tgbook/files/li-san-shu-xue/",
+    "desc": "选修课, 3学分, 开设在第四学期"
+  },
+  {
+    "title": "数据库概论",
+    "url": "/tgbook/files/shu-ju-ku-gai-lun/",
+    "desc": "选修课, 3学分(开设在第三学期)"
+  },
+  {
+    "title": "数学分析",
+    "url": "/tgbook/files/shu-xue-fen-xi/",
+    "desc": "数学系准入课之一,  5\\3=15学分(开设在第一到第三学期, 准入数学系需修AB)"
+  },
+  {
+    "title": "数值分析",
+    "url": "/tgbook/files/shu-zhi-fen-xi/",
+    "desc": "平台课, 计算核心课, 4学分"
+  },
+  {
+    "title": "二次选拔考试",
+    "url": "/tgbook/others/er-ci-xuan-ba-kao-shi/",
+    "desc": "大一入学时进入拔尖计划的选拔考试"
+  },
+  {
+    "title": "LaTeX",
+    "url": "/tgbook/others/latex/",
+    "desc": "一种方便的文本排版语言, 用于排版数学公式."
+  },
+  {
+    "title": "摸底考试",
+    "url": "/tgbook/others/mo-di-kao-shi/",
+    "desc": "早年间修读\\层次人数过多时为了筛选的产物, 不排除打赢复活赛的可能."
+  },
+  {
+    "title": "数学建模",
+    "url": "/tgbook/others/shu-xue-jian-mo/",
+    "desc": ""
+  }
+]
