@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>前言 · 南数课程指南</title>
+<meta name="description" content="此处按版本记录前言.">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/tgbook/tgbook.css">
+<script>
+// 尽量早地应用主题，避免刷新时闪白
+try {
+  var t = localStorage.getItem("zavalon-theme");
+  if (t) document.documentElement.setAttribute("data-theme", t);
+} catch (e) {}
+</script>
+</head>
+<body>
+<a class="tb-skip" href="#tb-main">跳到正文</a>
+
+<header class="tb-header">
+  <div class="tb-header__inner">
+    <button class="tb-burger" id="tbBurger" type="button" aria-label="打开目录" aria-expanded="false" aria-controls="tbAside">
+      <span></span><span></span><span></span>
+    </button>
+    <a class="tb-brand" href="/tgbook/">
+      <span class="tb-brand__mark">南</span>
+      <span class="tb-brand__text">南数课程指南</span>
+    </a>
+    <nav class="tb-header__links">
+      <a href="/">个人主页</a>
+      <button class="tb-theme" id="tbTheme" type="button" aria-label="切换深浅色">◐</button>
+    </nav>
+  </div>
+</header>
+
+<div class="tb-layout">
+  <aside class="tb-aside" id="tbAside">
+    <nav class="tb-nav" aria-label="目录"><p class="tb-nav__group">开始</p><ul class="tb-nav__list"><li><a href="/tgbook/">欢迎!</a></li></ul><p class="tb-nav__group">关于</p><ul class="tb-nav__list"><li><a href="/tgbook/about-us/about/">关于</a></li><li><a href="/tgbook/about-us/info/" class="is-active" aria-current="page">前言</a></li><li><a href="/tgbook/about-us/thanks/">致谢</a></li></ul><p class="tb-nav__group">课程</p><ul class="tb-nav__list"><li><a href="/tgbook/files/chang-wei-fen-fang-cheng/">常微分方程</a></li><li><a href="/tgbook/files/cheng-xu-she-ji-yu-suan-fa-yu-yan/">程序设计与算法语言</a></li><li><a href="/tgbook/files/da-wu-shi-yan-yi/">大物实验(一)</a></li><li><a href="/tgbook/files/da-xue-wu-li-shang/">大学物理(上)</a></li><li><a href="/tgbook/files/da-xue-ying-yu/">大学英语</a></li><li><a href="/tgbook/files/fu-bian-han-shu/">复变函数</a></li><li><a href="/tgbook/files/gaillun-ji-chu/">概率论基础</a></li><li><a href="/tgbook/files/gao-deng-dai-shu/">高等代数</a></li><li><a href="/tgbook/files/jie-xi-ji-he/">解析几何</a></li><li><a href="/tgbook/files/jin-shi-dai-shu/">近世代数</a></li><li><a href="/tgbook/files/li-san-shu-xue/">离散数学</a></li><li><a href="/tgbook/files/shu-ju-ku-gai-lun/">数据库概论</a></li><li><a href="/tgbook/files/shu-xue-fen-xi/">数学分析</a></li><li><a href="/tgbook/files/shu-zhi-fen-xi/">数值分析</a></li></ul><p class="tb-nav__group">其他</p><ul class="tb-nav__list"><li><a href="/tgbook/others/er-ci-xuan-ba-kao-shi/">二次选拔考试</a></li><li><a href="/tgbook/others/latex/">LaTeX</a></li><li><a href="/tgbook/others/mo-di-kao-shi/">摸底考试</a></li><li><a href="/tgbook/others/shu-xue-jian-mo/">数学建模</a></li></ul></nav>
+    <p class="tb-aside__foot">内容迁移自原 GitBook<br>现已完全自托管</p>
+  </aside>
+
+  <main class="tb-main" id="tb-main">
+    <article class="tb-article">
+<h1>前言</h1>
+<p>此处按版本记录前言.</p>
+<h2>Vision 1.0.0</h2>
+<div class="tb-callout tb-callout--info"><p>墙角数枝梅, 凌寒独自开.</p>
+</div><p>第一次来到陌生的大学, 接触一门门课程, 我们常常需要一些资料. 然资料常隐匿于群中, 只得代代相传. 先来者悟出的经验, 踩过的坑, 也未能很好的指导后来者. 这是本项目的起源, 我们希望前人走过的弯路, 后人不必再走.</p>
+<p>众所周知, 某高校从2017年左右开始实施数理大类制度, 笔者认为这一制度是弊大于利的, 不仅割裂了数学学习的连贯性,  也给学生平添更多负担, 包括内卷分流, 修读一些笔者认为是浪费时间的课程等等, 也为大类内的其他专业贡献了一些可能并不满足院系预期要求的生源, 这是也对其大一时期修读的数分高代等偏数学性质的专业课的一种资源浪费.&#x20;</p>
+<p>原本像AI,计科(CS)等院系大一时期的课程和难度反而和选修*层次(即意愿分流进数学系)同学高度适配, 例如离散数学,初等数论等课个人也建议在早期开设. 然呢喃由于师资不足等原因很多课没办法开设, 课程体系也不得不妥协, 笔者这一点牢骚也指望日后可以实现吧.&#x20;</p>
+<p>另一方面, 课程学习上的具体困难, 重点内容, 选课建议也没有简明地列在培养计划中, 这本应是对学生未来学习与方向选择的重要的官方导引. 相比之下,在对学生的引导方面,THU和USTC的数学系就做得比较好. 因此从这个角度来说, 笔者希望能为想分流进数学系的同学们提供一些意见和指导, 这些内容将在未来补充,愿能对读者有所帮助.</p>
+
+    </article>
+    <nav class="tb-pager">
+        <a class="tb-pager__item" href="/tgbook/about-us/about/"><span>上一篇</span><b>关于</b></a>
+        <a class="tb-pager__item tb-pager__item--next" href="/tgbook/about-us/thanks/"><span>下一篇</span><b>致谢</b></a>
+      </nav>
+    <footer class="tb-foot">
+      <a href="/tgbook/">← 回到目录</a>
+      <a href="/">个人主页</a>
+    </footer>
+  </main>
+</div>
+
+<script>
+(function () {
+  var b = document.getElementById("tbBurger");
+  var aside = document.getElementById("tbAside");
+  if (b && aside) {
+    b.addEventListener("click", function () {
+      var open = aside.classList.toggle("is-open");
+      b.setAttribute("aria-expanded", String(open));
+      document.body.classList.toggle("tb-locked", open);
+    });
+    aside.addEventListener("click", function (e) {
+      if (e.target.tagName === "A") { aside.classList.remove("is-open"); b.setAttribute("aria-expanded", "false"); document.body.classList.remove("tb-locked"); }
+    });
+  }
+  var t = document.getElementById("tbTheme");
+  if (t) {
+    t.addEventListener("click", function () {
+      var cur = document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", cur);
+      try { localStorage.setItem("zavalon-theme", cur); } catch (e) {}
+    });
+  }
+})();
+</script>
+</body>
+</html>
