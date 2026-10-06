@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zava1on.github.io/sitemap.xml

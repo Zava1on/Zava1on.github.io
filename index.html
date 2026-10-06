@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Zavalon · 个人主页</title>
+<meta name="description" content="Zavalon（@Zava1on）的个人主页 —— 项目、技能与联系方式，数据自动同步自 GitHub。">
+<meta name="author" content="Zavalon">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#07080d" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+
+<!-- Open Graph / 分享卡片 -->
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Zavalon · 个人主页">
+<meta property="og:description" content="项目、技能与联系方式，数据自动同步自 GitHub。">
+<meta property="og:url" content="https://Zava1on.github.io/">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/271201428?v=4">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/favicon.svg">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ===================== 图标精灵 ===================== -->
+<svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.7-1.4-1.7-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.2 1.9 1.2 1.1 1.9 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3Z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 6.5h18v11H3z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="m3.5 7 8.5 6 8.5-6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 21s7-5.7 7-11a7 7 0 1 0-14 0c0 5.3 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+  <symbol id="i-link" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M10.5 13.5a3.5 3.5 0 0 0 5 0l3-3a3.5 3.5 0 0 0-5-5l-1.2 1.2M13.5 10.5a3.5 3.5 0 0 0-5 0l-3 3a3.5 3.5 0 0 0 5 5l1.2-1.2"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="m12 3.5 2.7 5.6 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1L3.2 10l6.1-.9L12 3.5Z"/></symbol>
+  <symbol id="i-fork" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" d="M7 4.5v5.2c0 1.3 1 2.3 2.3 2.3h4.4c1.3 0 2.3-1 2.3-2.3V4.5M12 12v7.5"/><circle cx="7" cy="3.4" r="2" fill="none" stroke="currentColor" stroke-width="1.9"/><circle cx="17" cy="3.4" r="2" fill="none" stroke="currentColor" stroke-width="1.9"/><circle cx="12" cy="20.6" r="2" fill="none" stroke="currentColor" stroke-width="1.9"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M9 7h8v8"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M14 3.5H7a1.5 1.5 0 0 0-1.5 1.5v14A1.5 1.5 0 0 0 7 20.5h10a1.5 1.5 0 0 0 1.5-1.5V8L14 3.5Z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M13.8 3.6V8h4.4M9 13h6M9 16.5h4"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m9 8-4 4 4 4M15 8l4 4-4 4"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M12 7.5V12l3 2"/></symbol>
+  <symbol id="i-scale" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M12 4v16M7 20h10M6 8h12M6 8l-2.5 5h5L6 8Zm12 0-2.5 5h5L18 8Z"/></symbol>
+  <symbol id="i-bilibili" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M6 5 4 3M18 5l2-2M4 7.5h16a1.5 1.5 0 0 1 1.5 1.5v9A1.5 1.5 0 0 1 20 19.5H4A1.5 1.5 0 0 1 2.5 18v-9A1.5 1.5 0 0 1 4 7.5Z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M8.5 11.5v4M15.5 11.5v4"/></symbol>
+  <symbol id="i-zhihu" viewBox="0 0 24 24"><path fill="currentColor" d="M14.6 3H21v2.3h-3.6c-.2 3.3-.9 6-2.2 8.2 1.3 1.2 2.6 2.1 4.1 2.6l-1.2 2.1c-1.7-.7-3.2-1.7-4.5-3.1-1.8 1.6-4 2.7-6.4 3.3l-1-2c2.2-.5 4.1-1.5 5.7-2.9-1.4-2.2-2.4-4.8-3-7.7l2.1-.4c.5 2.4 1.4 4.6 2.6 6.4 1-1.8 1.6-4 1.8-6.5h-8V3h4.6Zm-9 4.2 2.1-.4c.3 1.2.6 2.4 1 3.5l-2.1.5c-.3-1.2-.6-2.4-1-3.6Zm-.4 5.6h5.3v2H7.6v3.1c0 .5-.2.8-.5 1-.3.2-.8.3-1.5.3H4.4l-.5-2h1.3V14.8H2.6v-2Z"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path fill="currentColor" d="M17.6 3h3.2l-7 8 7.4 10h-5.6l-4.4-6-5 6H2.9l7.3-8.6L3 3h5.7l4.1 5.6L17.6 3Zm-1.1 16h1.7L7.5 4.8H5.7L16.5 19Z"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.9"/><path fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2 6.6 6.6M17.4 17.4l1.4 1.4M18.8 5.2 17.4 6.6M6.6 17.4l-1.4 1.4"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" d="M20 14.2A8.2 8.2 0 0 1 9.8 4a8.5 8.5 0 1 0 10.2 10.2Z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="m6 6 12 12M18 6 6 18"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 19V5M5.5 11.5 12 5l6.5 6.5"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.5 13.9 9l6.6 1.9-6.6 1.9L12 19.5 10.1 12.8 3.5 10.9 10.1 9 12 2.5Z"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+</svg>
+
+<div class="bg" aria-hidden="true">
+  <div class="bg__grid"></div>
+  <div class="bg__blob bg__blob--1"></div>
+  <div class="bg__blob bg__blob--2"></div>
+  <div class="bg__blob bg__blob--3"></div>
+  <div class="bg__noise"></div>
+</div>
+
+<a class="skip" href="#main">跳到主要内容</a>
+
+<!-- ===================== 顶部导航 ===================== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="#home" aria-label="回到首页">
+      <span class="brand__mark" aria-hidden="true">Z</span>
+      <span class="brand__text" data-bind="name">Zavalon</span>
+    </a>
+
+    <nav class="nav__links" id="navLinks" aria-label="主导航">
+      <a href="#about"    class="nav__link" data-nav="about">关于</a>
+      <a href="#projects" class="nav__link" data-nav="projects">项目</a>
+      <a href="/tgbook/"  class="nav__link">课程指南</a>
+      <a href="#skills"   class="nav__link" data-nav="skills">技能</a>
+      <a href="#contact"  class="nav__link" data-nav="contact">联系</a>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="切换深浅色主题" title="切换主题">
+        <svg class="ico i-sun" aria-hidden="true"><use href="#i-sun"></use></svg>
+        <svg class="ico i-moon" aria-hidden="true"><use href="#i-moon"></use></svg>
+      </button>
+      <a class="icon-btn" id="navGithub" href="https://github.com/Zava1on" target="_blank" rel="noopener" aria-label="GitHub 主页" title="GitHub">
+        <svg class="ico" aria-hidden="true"><use href="#i-github"></use></svg>
+      </a>
+      <button class="icon-btn nav__burger" id="burger" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="navLinks">
+        <svg class="ico i-menu" aria-hidden="true"><use href="#i-menu"></use></svg>
+        <svg class="ico i-close" aria-hidden="true"><use href="#i-close"></use></svg>
+      </button>
+    </div>
+  </div>
+  <div class="nav__progress" id="navProgress"></div>
+</header>
+
+<main id="main">
+
+  <!-- ===================== 首屏 ===================== -->
+  <section class="hero" id="home">
+    <div class="wrap hero__grid">
+      <div class="hero__text">
+        <p class="hero__hi reveal">
+          <span class="dot" aria-hidden="true"></span>
+          <span>在 GitHub 上持续构建</span>
+        </p>
+
+        <h1 class="hero__name reveal" data-delay="60">
+          你好，我是 <span class="grad" data-bind="name">Zavalon</span>
+        </h1>
+
+        <p class="hero__roles reveal" data-delay="120" aria-live="polite">
+          <span class="hero__roles-prefix" aria-hidden="true">$</span>
+          <span id="typewriter" class="hero__roles-text"></span><span class="caret" aria-hidden="true"></span>
+        </p>
+
+        <p class="hero__intro reveal" data-delay="180" data-bind="intro"></p>
+
+        <div class="hero__cta reveal" data-delay="240">
+          <a class="btn btn--primary" id="ctaGithub" href="https://github.com/Zava1on" target="_blank" rel="noopener">
+            <svg class="ico" aria-hidden="true"><use href="#i-github"></use></svg>
+            <span>查看我的 GitHub</span>
+          </a>
+          <a class="btn btn--ghost" id="ctaMail" href="#" hidden>
+            <svg class="ico" aria-hidden="true"><use href="#i-mail"></use></svg>
+            <span>发邮件</span>
+          </a>
+          <a class="btn btn--ghost" id="ctaResume" href="#" hidden>
+            <svg class="ico" aria-hidden="true"><use href="#i-doc"></use></svg>
+            <span>简历</span>
+          </a>
+        </div>
+
+        <ul class="hero__meta reveal" data-delay="300">
+          <li id="metaLocation" hidden>
+            <svg class="ico" aria-hidden="true"><use href="#i-pin"></use></svg>
+            <span data-bind="location"></span>
+          </li>
+          <li id="metaJoined" hidden>
+            <svg class="ico" aria-hidden="true"><use href="#i-clock"></use></svg>
+            <span>加入 GitHub <b data-bind="joined">—</b></span>
+          </li>
+        </ul>
+
+        <ul class="socials reveal" data-delay="330" id="socials"></ul>
+      </div>
+
+      <div class="hero__card reveal" data-delay="120">
+        <div class="avatar">
+          <div class="avatar__ring" aria-hidden="true"></div>
+          <div class="avatar__img" id="avatarBox">
+            <img id="avatar" alt="Zavalon 的头像" loading="eager" decoding="async"
+                 src="https://avatars.githubusercontent.com/u/271201428?v=4">
+            <span class="avatar__fallback" aria-hidden="true">Z</span>
+          </div>
+          <span class="avatar__badge" title="GitHub 用户">
+            <svg class="ico" aria-hidden="true"><use href="#i-github"></use></svg>
+          </span>
+        </div>
+
+        <div class="hero__card-body">
+          <p class="hero__handle">
+            <a id="profileLink" href="https://github.com/Zava1on" target="_blank" rel="noopener">@<span data-bind="handle">Zava1on</span></a>
+          </p>
+          <p class="hero__bio" id="ghBio" hidden></p>
+          <dl class="ministats" id="miniStats">
+            <div><dt>仓库</dt><dd data-mini="repos">—</dd></div>
+            <div><dt>关注者</dt><dd data-mini="followers">—</dd></div>
+            <div><dt>关注中</dt><dd data-mini="following">—</dd></div>
+          </dl>
+          <div class="live" aria-label="实时信息">
+            <div class="live__row">
+              <svg class="ico" aria-hidden="true"><use href="#i-clock"></use></svg>
+              <span class="live__k">北京时间</span>
+              <b class="live__v live__v--clock" id="clockCST">--:--:--</b>
+            </div>
+            <div class="live__row">
+              <svg class="ico" aria-hidden="true"><use href="#i-eye"></use></svg>
+              <span class="live__k">访问量</span>
+              <b class="live__v" id="viewCount">—</b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a class="hero__scroll" href="#about" aria-label="向下滚动">
+      <span class="hero__scroll-line" aria-hidden="true"></span>
+      <span>往下看看</span>
+    </a>
+  </section>
+
+  <!-- ===================== 关于 ===================== -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <span class="sec-kicker">01 — 关于</span>
+        <h2 class="sec-title">一点点自我介绍</h2>
+      </header>
+      <div class="about">
+        <div class="about__text reveal" data-delay="60">
+          <p data-bind="intro"></p>
+          <p class="about__note" id="aboutNote" hidden>
+            <svg class="ico" aria-hidden="true"><use href="#i-spark"></use></svg>
+            <span>这段文字在 <code>assets/js/config.js</code> 的 <b>intro</b> 字段里，改成你自己的就行。</span>
+          </p>
+        </div>
+        <ul class="facts reveal" data-delay="120" id="facts">
+          <li><span class="facts__k">GitHub</span><span class="facts__v">@<span data-bind="handle">Zava1on</span></span></li>
+          <li><span class="facts__k">公开仓库</span><span class="facts__v" data-mini="repos">—</span></li>
+          <li><span class="facts__k">加入时间</span><span class="facts__v" data-bind="joinedShort">—</span></li>
+          <li id="factLocation" hidden><span class="facts__k">所在地</span><span class="facts__v" data-bind="location"></span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 项目 ===================== -->
+  <section class="section" id="projects">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <span class="sec-kicker">02 — 项目</span>
+        <h2 class="sec-title">我在写的东西</h2>
+        <p class="sec-sub">精选作品手动维护，其余列表实时同步自 GitHub。</p>
+      </header>
+
+      <div class="pinned" id="pinned" hidden></div>
+
+      <div class="repo-toolbar reveal" data-delay="40">
+        <div class="seg" role="tablist" aria-label="项目排序">
+          <button class="seg__btn is-active" data-sort="pushed" role="tab" aria-selected="true" type="button">最近更新</button>
+          <button class="seg__btn" data-sort="stars" role="tab" aria-selected="false" type="button">最多 Star</button>
+          <button class="seg__btn" data-sort="name" role="tab" aria-selected="false" type="button">按名称</button>
+        </div>
+        <div class="repo-toolbar__right">
+          <span class="tag tag--live" id="dataSource" title="数据来源">载入中…</span>
+          <a class="link-arrow" href="https://github.com/Zava1on?tab=repositories" target="_blank" rel="noopener">
+            全部仓库 <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="langbar reveal" data-delay="60" id="langbar" hidden>
+        <div class="langbar__head">
+          <span>语言分布</span>
+          <span class="langbar__hint" id="langbarHint"></span>
+        </div>
+        <div class="langbar__bar" id="langbarBar"></div>
+        <ul class="langbar__legend" id="langbarLegend"></ul>
+      </div>
+
+      <div class="repos" id="repos" aria-live="polite" aria-busy="true">
+        <!-- 骨架屏 -->
+        <article class="repo repo--skeleton"><div class="sk sk--title"></div><div class="sk sk--line"></div><div class="sk sk--line sk--short"></div></article>
+        <article class="repo repo--skeleton"><div class="sk sk--title"></div><div class="sk sk--line"></div><div class="sk sk--line sk--short"></div></article>
+        <article class="repo repo--skeleton"><div class="sk sk--title"></div><div class="sk sk--line"></div><div class="sk sk--line sk--short"></div></article>
+      </div>
+
+      <p class="empty" id="reposEmpty" hidden>
+        <svg class="ico" aria-hidden="true"><use href="#i-spark"></use></svg>
+        还没有公开仓库 —— 等第一个项目上线，这里就会热闹起来。
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== 技能 ===================== -->
+  <section class="section" id="skills" hidden>
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <span class="sec-kicker">03 — 技能</span>
+        <h2 class="sec-title">用过的工具和技术</h2>
+      </header>
+      <div class="skills" id="skillGroups"></div>
+    </div>
+  </section>
+
+  <!-- ===================== 联系 ===================== -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <span class="sec-kicker">04 — 联系</span>
+        <h2 class="sec-title">一起做点有意思的事</h2>
+        <p class="sec-sub">有想法、有合作、或者只是想打个招呼，都欢迎找我。</p>
+      </header>
+      <div class="contact" id="contactCards"></div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== 页脚 ===================== -->
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <p class="foot__left">
+      © <span id="year">2026</span> <span data-bind="name">Zavalon</span>
+      <span class="foot__sep" aria-hidden="true">·</span>
+      <span class="foot__dim">用 HTML / CSS / 一点 JavaScript 手写</span>
+    </p>
+    <p class="foot__right">
+      <a href="https://github.com/Zava1on/Zava1on.github.io" target="_blank" rel="noopener">本站源码</a>
+      <span class="foot__sep" aria-hidden="true">·</span>
+      <a href="#home">回到顶部</a>
+    </p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">
+  <svg class="ico" aria-hidden="true"><use href="#i-up"></use></svg>
+</button>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/data/snapshot.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

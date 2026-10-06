@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>前言 · 南数课程指南</title>
+<meta name="description" content="此处按版本记录前言.">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/tgbook/tgbook.css">
+<script>
+// 尽量早地应用主题，避免刷新时闪白
+try {
+  var t = localStorage.getItem("zavalon-theme");
+  if (t) document.documentElement.setAttribute("data-theme", t);
+} catch (e) {}
+</script>
+</head>
+<body>
+<a class="tb-skip" href="#tb-main">跳到正文</a>
+
+<header class="tb-header">
+  <div class="tb-header__inner">
+    <button class="tb-burger" id="tbBurger" type="button" aria-label="打开目录" aria-expanded="false" aria-controls="tbAside">
+      <span></span><span></span><span></span>
+    </button>
+    <a class="tb-brand" href="/tgbook/">
+      <span class="tb-brand__mark">南</span>
+      <span class="tb-brand__text">南数课程指南</span>
+    </a>
+    <nav class="tb-header__links">
+      <a href="/">个人主页</a>
+      <button class="tb-theme" id="tbTheme" type="button" aria-label="切换深浅色">◐</button>
+    </nav>
+  </div>
+</header>
+
+<div class="tb-layout">
+  <aside class="tb-aside" id="tbAside">
+    <nav class="tb-nav" aria-label="目录"><p class="tb-nav__group">开始</p><ul class="tb-nav__list"><li><a href="/tgbook/">欢迎!</a></li></ul><p class="tb-nav__group">关于</p><ul class="tb-nav__list"><li><a href="/tgbook/about-us/about/">关于</a></li><li><a href="/tgbook/about-us/info/" class="is-active" aria-current="page">前言</a></li><li><a href="/tgbook/about-us/thanks/">致谢</a></li></ul><p class="tb-nav__group">一年级数学课</p><ul class="tb-nav__list"><li><a href="/tgbook/files/ag/">解析几何</a></li><li><a href="/tgbook/files/ma/">数学分析</a></li><li><a href="/tgbook/files/la/">高等代数</a></li></ul><p class="tb-nav__group">二年级数学课</p><ul class="tb-nav__list"><li><a href="/tgbook/files/ode/">常微分方程</a></li><li><a href="/tgbook/files/aa/">抽象代数</a></li><li><a href="/tgbook/files/ca/">复变函数</a></li><li><a href="/tgbook/files/pt/">概率论基础</a></li><li><a href="/tgbook/files/dm/">离散数学</a></li><li><a href="/tgbook/files/na-a/">数值分析</a></li></ul><p class="tb-nav__group">高年级数学课</p><ul class="tb-nav__list"><li><a href="/tgbook/files/na-b/">数值代数</a></li><li><a href="/tgbook/files/ra/">实变函数</a></li><li><a href="/tgbook/files/pde/">偏微分方程</a></li><li><a href="/tgbook/files/tp/">拓扑学</a></li><li><a href="/tgbook/files/opt/">数值最优化</a></li><li><a href="/tgbook/files/ms/">数理统计</a></li><li><a href="/tgbook/files/sp/">应用随机过程</a></li><li><a href="/tgbook/files/or/">运筹学基础</a></li><li><a href="/tgbook/files/fa/">泛函分析</a></li><li><a href="/tgbook/files/dg/">微分几何</a></li><li><a href="/tgbook/files/rt/">模论与表示论初步</a></li></ul><p class="tb-nav__group">非数学课程</p><ul class="tb-nav__list"><li><a href="/tgbook/files/programming-and-algorithms/">程序设计与算法语言</a></li><li><a href="/tgbook/files/college-physics-1/">大学物理(上)</a></li><li><a href="/tgbook/files/physics-lab-1/">大物实验(一)</a></li><li><a href="/tgbook/files/college-english/">大学英语</a></li><li><a href="/tgbook/files/database/">数据库概论</a></li></ul><p class="tb-nav__group">其他</p><ul class="tb-nav__list"><li><a href="/tgbook/others/selection/">拔尖＆摸底</a></li><li><a href="/tgbook/others/textbooks/">课程教材一览</a></li><li><a href="/tgbook/others/mathematical-modeling/">数学建模</a></li><li><a href="/tgbook/others/latex/">LaTeX</a></li></ul></nav>
+    <p class="tb-aside__foot">内容迁移自原 GitBook<br>现已完全自托管</p>
+  </aside>
+
+  <main class="tb-main" id="tb-main">
+    <article class="tb-article">
+<h1>前言</h1>
+<p>此处按版本记录前言.</p>
+<h2>Vision 1.0.0</h2>
+<div class="tb-callout tb-callout--info"><p>墙角数枝梅, 凌寒独自开.</p>
+</div><p>第一次来到陌生的大学, 接触一门门课程, 我们常常需要一些资料. 然资料常隐匿于群中, 只得代代相传. 先来者悟出的经验, 踩过的坑, 也未能很好的指导后来者. 这是本项目的起源, 我们希望前人走过的弯路, 后人不必再走.</p>
+<p>众所周知, 某高校从2017年左右开始实施数理大类制度, 笔者认为这一制度是弊大于利的, 不仅割裂了数学学习的连贯性,  也给学生平添更多负担, 包括内卷分流, 修读一些笔者认为是浪费时间的课程等等, 也为大类内的其他专业贡献了一些可能并不满足院系预期要求的生源, 这是也对其大一时期修读的数分高代等偏数学性质的专业课的一种资源浪费.&#x20;</p>
+<p>原本像AI,计科(CS)等院系大一时期的课程和难度反而和选修*层次(即意愿分流进数学系)同学高度适配, 例如离散数学,初等数论等课个人也建议在早期开设. 然呢喃由于师资不足等原因很多课没办法开设, 课程体系也不得不妥协, 笔者这一点牢骚也指望日后可以实现吧.&#x20;</p>
+<p>另一方面, 课程学习上的具体困难, 重点内容, 选课建议也没有简明地列在培养计划中, 这本应是对学生未来学习与方向选择的重要的官方导引. 相比之下,在对学生的引导方面,THU和USTC的数学系就做得比较好. 因此从这个角度来说, 笔者希望能为想分流进数学系的同学们提供一些意见和指导, 这些内容将在未来补充,愿能对读者有所帮助.</p>
+<h2>Vision 2.0.0</h2>
+<p>假期得闲整理文件时，偶然发现这些尘封已久的稚时拙作，然我已无心力再进行维护。庆幸的是，大 AI 时代下，做到这些完全就是一句话的事情，但是我自己掌握的情报又有什么意义呢？直到我翻到了来自2008年的文件，虽然前辈们已经在我们当时接手后删库(<a href="https://github.com/lengyuner/njumath">https://github.com/lengyuner/njumath</a>), 历经十八年的传承还是让我有所触动, 于是我将还能辨认的资料和之前的成果整理成了这份最终的合订本。据我所知，目前的各个课程已经换了一圈老师，那么往年卷的参考程度已经将为了练习题，但是大 AI 时代给予了核对答案的便利，仍然还有一定的积极作用，至少稍微做做可以练练手感。至于每份卷子背后的故事，不妨回群里问问，兴许还能碰到当年的贡献者，我不当群主已经两年多，毕业后早已淡出相关事务。这算是我重启以来的第一次更新也是最后一次更新了，做到了项目阶段性闭环。若还有有缘人或者热心群众，可以补全 <a href="https://zava1on.github.io/tgbook/">https://zava1on.github.io/tgbook/</a> 这份课程指南，或者求生手册，以了结我心中所憾。借用 Veritas Ratio 教授的话来说，&#39;知识应当流通与分享，真理亦是如此.&#39;</p>
+
+    </article>
+    <nav class="tb-pager">
+        <a class="tb-pager__item" href="/tgbook/about-us/about/"><span>上一篇</span><b>关于</b></a>
+        <a class="tb-pager__item tb-pager__item--next" href="/tgbook/about-us/thanks/"><span>下一篇</span><b>致谢</b></a>
+      </nav>
+    <footer class="tb-foot">
+      <a href="/tgbook/">← 回到目录</a>
+      <a href="/">个人主页</a>
+    </footer>
+  </main>
+</div>
+
+<script>
+(function () {
+  var b = document.getElementById("tbBurger");
+  var aside = document.getElementById("tbAside");
+  if (b && aside) {
+    b.addEventListener("click", function () {
+      var open = aside.classList.toggle("is-open");
+      b.setAttribute("aria-expanded", String(open));
+      document.body.classList.toggle("tb-locked", open);
+    });
+    aside.addEventListener("click", function (e) {
+      if (e.target.tagName === "A") { aside.classList.remove("is-open"); b.setAttribute("aria-expanded", "false"); document.body.classList.remove("tb-locked"); }
+    });
+  }
+  var t = document.getElementById("tbTheme");
+  if (t) {
+    t.addEventListener("click", function () {
+      var cur = document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", cur);
+      try { localStorage.setItem("zavalon-theme", cur); } catch (e) {}
+    });
+  }
+})();
+</script>
+</body>
+</html>
